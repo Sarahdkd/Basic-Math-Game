@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Math Quiz Game</title>
+	<style>
+	body {
+    font-family: "Segoe UI",sans-serif;
+    background-color: #EBFF9D;
+	background-image:url("sky.gif");
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #9DD8FF;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0.3,0.3,0.3,0.3);
+}
+
+
+h1 {
+	font-size: 36px;
+	color:#FFFFFF;
+	
+}
+
+p {
+	font-size: 18px,bold;
+}
+
+input[type="text"], button {
+	font-size: 18px;
+	padding: 5px;
+	background-color:#F5FFA1;
+	text-align: center;
+	border-radius:10px;
+	border-color: #F5FFA1;
+	box-shadow: 3px 3px 6px rgba(0.3,0.3,0.3);
+	color: #82B8FF;
+}
+
+#result {
+	font-size: 28px;
+	font-weight: bold;
+	color:#FFFFFF;	
+}
+		
+		#score{
+			font-size: 30px;
+			font-weight: bolder;
+			color: #0C85FF;
+		}
+		
+		#question{
+			font-size: 32px;
+			font-weight: bold;
+			color: #0c85ff;
+		}
+</style>
+
+</head>
+	<body>
+		<div class="container">
+		<h1>Math Quiz Game</h1>
+		<p id="question"></p>
+		<input type="text" id="answer" placeholder="Enter the correct answer">
+		<button onclick="checkAnswer()">Submit</button>
+		<p id="result"></p>
+		<button onclick="nextQuestion()">Next</button>
+		<p id="score">Score: 0</p>
+		
+		</div>
+
+		<script src="Sarah Davis,221009612,Jscript.js"></script>
+	
+	</body>
+</html>
+
